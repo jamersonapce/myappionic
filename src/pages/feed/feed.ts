@@ -20,6 +20,7 @@ import { MovieProvider } from '../../providers/movie/movie';
 })
 export class FeedPage {
   public objeto_feed = {
+
     titulo: "Ionic App",
     data: "Agosto 14, 2018",
     descricao: "Criando um app com ionic",
@@ -29,6 +30,7 @@ export class FeedPage {
   }
 
   public lista_filmes = new Array<any>();
+
   public nome_usuario:string = "Nome do código";
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private movieProvider: MovieProvider) {
