@@ -8,6 +8,6 @@ import { FeedPage } from './feed';
   ],
   imports: [
     IonicPageModule.forChild(FeedPage),
-  ],
+  ]
 })
 export class FeedPageModule {}
